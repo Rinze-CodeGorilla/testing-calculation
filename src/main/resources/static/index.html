@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<h1>Reken alles uit!</h1>
+<form action="/calculate" method="post">
+  <label>Eerste getal
+    <input name="first" type="number" step="1">
+  </label>
+
+  <select name="operator">
+    <option value="+">toevoegen</option>
+    <option>-</option>
+  </select>
+
+  <label>Tweede getal
+    <input name="second" type="number" step="1">
+  </label>
+
+  <input type="submit" value="Reken het maar uit">
+</form>
+</body>
+</html>
